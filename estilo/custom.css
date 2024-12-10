@@ -1,0 +1,136 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.foto {
+    width: 100%;
+}
+
+.logo{
+
+    width: 80%;
+    margin: 10%;
+}
+
+.cabecera{
+    background-color: #318334;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu{
+
+    background-color: burlywood;
+    color: darkcyan;
+    text-align: center;
+}
+
+.elemento:hover{
+    background-color: darkcyan;
+    color: rgb(240, 207, 19);
+}
+
+.elemento{
+
+    border: 1px solid darkcyan;
+    font-weight: bold;
+
+}
+
+.subtitulo{
+
+    width: 90%;
+}
+
+.seccion{
+
+
+    text-align: center;
+}
+
+.fondo1{
+
+    background-color: moccasin;
+}
+
+.fotoproducto{
+
+    width: 80%;
+    margin: 10%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 75px rgb(47, 27, 1);
+    border: 3px solid burlywood;
+
+}
+
+.descripcion{
+
+   width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(25, 75, 58);
+    color: white;
+}
+
+.mapa{
+
+    width:500px;
+}
+
+.contacto{
+
+    width: 80%;
+    margin: 2% 10%;
+}
+@media screen and (min-width:767px) {
+
+    .foto{
+        width: 70%;
+        margin: 15%;
+    }
+
+    .mapa{
+            
+            width: 90%;
+            margin: 5%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .foto{
+        width: 100%;
+        
+    }
+
+    .subtitulo{
+
+        text-align: center;
+    }
+}
