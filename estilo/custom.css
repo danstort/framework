@@ -1,3 +1,8 @@
+.wrapper{
+    background-color: rgb(240, 216, 185);
+    font-family: "Delius", sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,6 +28,7 @@ li a:hover {
 }
 
 .foto {
+    
     width: 100%;
 }
 
@@ -33,36 +39,29 @@ li a:hover {
 }
 
 .cabecera{
-    background-color: #318334;
+    background-color: rgba(47, 175, 98, 0.755);
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 .menu{
 
-    background-color: burlywood;
-    color: darkcyan;
+    background-color: #e3965a;
+    color: #668000;
     text-align: center;
+    font-weight: 900;
+    font-size: 25px;
 }
 
 .elemento:hover{
-    background-color: darkcyan;
+    background-color: #668000;
     color: rgb(240, 207, 19);
 }
 
-.elemento{
 
-    border: 1px solid darkcyan;
-    font-weight: bold;
-
-}
-
-.subtitulo{
-
-    width: 90%;
-}
 
 .seccion{
 
@@ -80,8 +79,8 @@ li a:hover {
     width: 80%;
     margin: 10%;
     border-radius: 50%;
-    box-shadow: 1px 1px 75px rgb(47, 27, 1);
-    border: 3px solid burlywood;
+    box-shadow: 1px 1px 75px rgb(150, 92, 11);
+    border: 3px solid #e3965a;
 
 }
 
@@ -91,6 +90,7 @@ li a:hover {
     margin: 10%;
     margin-top: 5%;
     text-align: center;
+    font-size: 22px;
 }
 
 .footer{
@@ -100,14 +100,41 @@ li a:hover {
 
 .mapa{
 
-    width:500px;
+    width:15%;
+    margin: 5% 50%;
+    
 }
 
 .contacto{
 
     width: 80%;
-    margin: 2% 10%;
+    margin: 5% 10%;
+    
 }
+
+.textoEmpresa{
+
+    text-align: center;
+    margin: 35% 5%;
+    font-size: 50px;
+}
+
+.textoEslogan{
+
+    text-align: center;
+    margin: 35% 5%;
+    font-size: 40px;
+}
+
+.textoTitRecetas{
+    
+        text-align: center;
+        font-size: 50px;
+
+}
+
+
+
 @media screen and (min-width:767px) {
 
     .foto{
@@ -117,8 +144,26 @@ li a:hover {
 
     .mapa{
             
-            width: 90%;
-            margin: 5%;
+        width:15%;
+        margin: 5% 50%;
+    }
+
+    .imagenMesa{
+        margin: 10%;
+        width: 80%;
+    }
+
+    .textoCentral{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: justify;
+    }
+
+    .contacto{
+
+        width: 80%;
+        margin: 5% 8%;
+        
     }
 }
 
@@ -132,5 +177,26 @@ li a:hover {
     .subtitulo{
 
         text-align: center;
+    }
+
+    .imagenMesa{
+        
+        width: 100%;
+        margin: 0;
+    }
+
+    .textoCentral{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        
+    }
+
+    .contacto{
+
+        width: 80%;
+        margin: 5% 3%;
+        
     }
 }

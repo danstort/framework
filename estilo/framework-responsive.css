@@ -1,6 +1,6 @@
 :root {
 
-    --base: 980;
+    --base: 1600;
     --tbase: calc(var(--base) * 1px);
     --tcolumna: calc(var(--base) / 12);
     --pcolumna: calc(var(--tcolumna)/var(--base)*100%);
@@ -288,7 +288,7 @@
     .col-md-1 {
         float: left;
         width: var(--pcolumna);
-        border: 1px solid black;
+        
     }
 
     .col-md-2 {
